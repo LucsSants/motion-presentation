@@ -1,0 +1,34 @@
+.toggle-container {
+  width: 55px;
+  height: 35px;
+  border-radius: 60px;
+  display: flex;
+  background: gray;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 7px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  /* background-color: rgb(255 255 255 / 30%);
+  backdrop-filter: blur(10px); */
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: blueviolet;
+  z-index: 1; 
+  border-radius:60px; 
+}
+
+.toggle-handle {
+  width: 25px;
+  height: 25px;
+  background:white;
+  border-radius: 30px;
+  z-index: 99;
+}

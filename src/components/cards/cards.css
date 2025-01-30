@@ -1,0 +1,46 @@
+.cards-list {
+    width: 90%;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 12px;
+  }
+
+  .retry-button{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+  }
+  
+  .card {
+    height: 450px;
+    width: 300px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    border: 2px solid gray;
+  }
+
+  .cardSpring {
+    height: 450px;
+    width: 300px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    border: 2px solid gray;
+    user-select: none;
+  }

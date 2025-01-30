@@ -1,0 +1,78 @@
+.titleContainer {
+  height: 100%;
+  width: 100%;
+  background: #9b4dee;
+  overflow: hidden;
+}
+
+.titleContent {
+
+  position: absolute; /* Important */
+  top: 50%; /* Position Y halfway in */
+  left: 50%; /* Position X halfway in */
+  transform: translate(-50%,-50%); /* Move it halfway back(x,y) */
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  font-size: 72px;
+}
+span {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 38px;
+  margin-top: 15px;
+}
+
+.nextButton {
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+  position: absolute;
+  top: 50%;
+  border: 2px #9b4dee solid;
+}
+
+.secondContainer {
+  height: 100%;
+  width: 100%;
+  background: #343434;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.secondContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dragText {
+  font-size: 64px;
+  font-weight: 700;
+  align-self: 'center';
+}

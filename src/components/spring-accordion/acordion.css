@@ -1,0 +1,22 @@
+.square {
+  color: black;
+  background: white;
+  height: 60px;
+  width: 40%;
+  min-width: 400px;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.square h3,h5 {
+  margin: 0;
+}
